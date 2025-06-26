@@ -1,0 +1,122 @@
+/* body{
+    background-color: rgb(40, 40, 41);
+    
+}
+.container{
+    background-color: rgb(60, 58, 58);
+    margin-top: 8rem;
+    margin-left: 28rem;
+    border: solid black 2px;
+    height: 70vh;   
+    width: 40.5vw ;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 4px 5px darkgray ;
+    border:solid lightgrey 1px;
+}
+
+.container input{
+    height: 4rem;
+    width: 34.5rem;
+    margin-top: .5rem;
+    margin-left: 1.3rem;
+    margin-bottom: .5rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 35px;
+    text-align: right;
+    border : solid black 
+}
+input::placeholder{
+    color:white;
+}
+
+button{
+    height: 4rem;
+    width: 6rem ;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    color:white;
+    font-size: 23px;
+    border-radius: .5rem;
+    box-shadow: 1px 1px black;
+}
+.cyan{
+    background-color: rgb(47, 45, 45);
+    color:cyan;
+}
+.right{
+    margin-left: 3rem;
+} */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.text {
+    width: 90%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    width: 22%;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+}
+
+.cyan {
+    background: #00bcd4;
+    color: white;
+}
+
+.remove {
+    background: #ff9800;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 400px) {
+    button {
+        width: 20%;
+        font-size: 1rem;
+    }
+}
