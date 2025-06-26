@@ -1,2 +1,2 @@
 ### Calculator
-[!Calculator](Screenshot/calculator.png)
+![Calculator](Screenshot/calculator.png)
